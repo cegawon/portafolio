@@ -71,7 +71,7 @@ h6 {
   position: fixed;
   visibility: hidden;
   opacity: 0;
-  right:   1065px;
+  right:  1065px;
   bottom: 15px;
   z-index: 996;
   background: #149ddd;
@@ -79,7 +79,7 @@ h6 {
   height: 40px;
   border-radius: 50px;
   transition: all 0.4s;
- 
+  align-items: center; 
 }
 
 .back-to-whatsapp i {
@@ -97,7 +97,78 @@ h6 {
   visibility: visible;
   opacity: 1;
 }
+/*--
+/*--------------------------------------------------------------
+# Back to whatsapp
+--------------------------------------------------------------*/
+.back-to-whatsapp {
+  position: fixed;
+  visibility: hidden;
+  opacity: 0;
+  right:  1065px;
+  bottom: 15px;
+  z-index: 996;
+  background: #149ddd;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  transition: all 0.4s;
+  align-items: center; 
+}
 
+.back-to-whatsapp i {
+  font-size: 28px;
+  color: #fff;
+  line-height: 0;
+}
+
+.back-to-whatsapp:hover {
+  background: #2eafec;
+  color: #fff;
+}
+
+.back-to-whatsapp.active {
+  visibility: visible;
+  opacity: 1;
+}
+/*--
+/*--
+/*--------------------------------------------------------------
+# Back to whatsapp mobile
+--------------------------------------------------------------*/
+
+
+.back-to-whatsapp1 {
+  position: fixed;
+  visibility: hidden;
+  opacity: 0;
+  right:  800px;
+  bottom: 15px;
+  z-index: 996;
+  background: #149ddd;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  transition: all 0.4s;
+  align-items: center; 
+}
+
+.back-to-whatsapp1  i {
+  font-size: 28px;
+  color: #fff;
+  line-height: 0;
+}
+
+.back-to-whatsapp1 :hover {
+  background: #2eafec;
+  color: #fff;
+}
+
+.back-to-whatsapp1 .active {
+  visibility: visible;
+  opacity: 1;
+}
+/*--
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -114,6 +185,8 @@ h6 {
   background: #040b14;
   overflow-y: auto;
 }
+
+
 
 #header .profile img {
   margin: 15px auto;
@@ -228,7 +301,7 @@ h6 {
      MOBILE MENU
 --------------------------------------------------------------*/
 /* Mobile Navigation */
-.mobile-nav-toggle {
+.mobile-toggle {
   position: fixed;
   right: 15px;
   top: 15px;
@@ -256,38 +329,7 @@ h6 {
 .mobile-nav-active #header {
   left: 0;
 }
-/*--------------------------------------------------------------
-     MOBILE WHATSAPP
---------------------------------------------------------------*/
-/* Mobile Navigation */
-.mobile-toggle {
-  position: fixed;
-  right: 450px;
-  bottom: 15px;
-  z-index: 9998;
-  border: 0;
-  font-size: 24px;
-  transition: all 0.4s;
-  outline: none !important;
-  background-color: #149ddd;
-  color: #fff;
-  width: 40px;
-  height: 40px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  line-height: 0;
-  border-radius: 50px;
-  cursor: pointer;
-}
 
-.mobile-active {
-  overflow: hidden;
-}
-
-.mobile-active #header {
-  left: 0;
-}
 
 /*--------------------------------------------------------------
 # Hero Section
@@ -1194,3 +1236,7 @@ section {
     width: 80%;
   }
 }
+
+
+
+

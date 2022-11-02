@@ -37,5 +37,5 @@ $headers .= "Bcc: pepe@pepe.com,juan@juan.com\r\n";
 mail($destinatario,$asunto,$cuerpo,$headers) 
 ?>
 <script>
-    window.location.replace("http://cesargalindo.fast-page.org");
+    window.location.replace("https://portafolio-fawn-psi.vercel.app");
 </script>
