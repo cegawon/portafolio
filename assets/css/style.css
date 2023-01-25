@@ -71,7 +71,7 @@ h6 {
   position: fixed;
   visibility: hidden;
   opacity: 0;
-  right:  1065px;
+  margin-left:  -80px;
   bottom: 15px;
   z-index: 996;
   background: #149ddd;
@@ -97,78 +97,6 @@ h6 {
   visibility: visible;
   opacity: 1;
 }
-/*--
-/*--------------------------------------------------------------
-# Back to whatsapp
---------------------------------------------------------------*/
-.back-to-whatsapp {
-  position: fixed;
-  visibility: hidden;
-  opacity: 0;
-  right:  1065px;
-  bottom: 15px;
-  z-index: 996;
-  background: #149ddd;
-  width: 40px;
-  height: 40px;
-  border-radius: 50px;
-  transition: all 0.4s;
-  align-items: center; 
-}
-
-.back-to-whatsapp i {
-  font-size: 28px;
-  color: #fff;
-  line-height: 0;
-}
-
-.back-to-whatsapp:hover {
-  background: #2eafec;
-  color: #fff;
-}
-
-.back-to-whatsapp.active {
-  visibility: visible;
-  opacity: 1;
-}
-/*--
-/*--
-/*--------------------------------------------------------------
-# Back to whatsapp mobile
---------------------------------------------------------------*/
-
-
-.back-to-whatsapp1 {
-  position: fixed;
-  visibility: hidden;
-  opacity: 0;
-  right:  800px;
-  bottom: 15px;
-  z-index: 996;
-  background: #149ddd;
-  width: 40px;
-  height: 40px;
-  border-radius: 50px;
-  transition: all 0.4s;
-  align-items: center; 
-}
-
-.back-to-whatsapp1  i {
-  font-size: 28px;
-  color: #fff;
-  line-height: 0;
-}
-
-.back-to-whatsapp1 :hover {
-  background: #2eafec;
-  color: #fff;
-}
-
-.back-to-whatsapp1 .active {
-  visibility: visible;
-  opacity: 1;
-}
-/*--
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
